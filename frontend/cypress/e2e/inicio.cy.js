@@ -4,7 +4,8 @@ describe('template spec', () => {
   });
 
   it('Deve renderizar corretamente o texto da seção de vantagens ', () => {
-    cy.get('h2').contains('Vantagens do nosso banco:');
+    cy.findAndContains('h2', 'Vantagens do nosso banco:');
+    // cy.get('h2').contains('Vantagens do nosso banco:');
   });
 
   it('Deve renderizar o h1 com texto correto', () => {
