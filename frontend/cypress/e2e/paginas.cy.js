@@ -1,6 +1,6 @@
 describe("testando multiplas paginas", () => {
 
-    it("deve conseguir acessar a página de cartões", () => {
+    it("deve conseguir acessar a página de cartões", { browser: 'edge' }, () => {
         cy.visit('/');
         cy.getByData('botao-login').click();
         cy.getByData('email-input').type("fulano@email.com");
