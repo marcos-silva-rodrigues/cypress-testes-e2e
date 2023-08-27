@@ -24,7 +24,7 @@ export default function Inicio() {
           <div className={estilos.vantagens}>
             <h2>Vantagens do nosso banco:</h2>
             <div className={estilos.vantagens__itens}>
-              <div className={estilos.vantagens__item}>
+              <div className={estilos.vantagens__item} data-cy='vantagen'>
                 <img src={presente} alt="ícone de um presente" />
                 <h3>Conta e cartão gratuitos</h3>
                 <p>
@@ -32,7 +32,7 @@ export default function Inicio() {
                   isso: sem tarifa de manutenção.
                 </p>
               </div>
-              <div className={estilos.vantagens__item}>
+              <div className={estilos.vantagens__item} data-cy='vantagen'>
                 <img src={saque} alt="ícone de uma mão segurando um dinheiro" />
                 <h3>Saques sem custo</h3>
                 <p>
@@ -40,7 +40,7 @@ export default function Inicio() {
                   24h.
                 </p>
               </div>
-              <div className={estilos.vantagens__item}>
+              <div className={estilos.vantagens__item} data-cy='vantagen'>
                 <img src={estrela} alt="ícone de uma estrela" />
                 <h3>Programa de pontos</h3>
                 <p>
@@ -48,7 +48,7 @@ export default function Inicio() {
                   pagar mensalidade!
                 </p>
               </div>
-              <div className={estilos.vantagens__item}>
+              <div className={estilos.vantagens__item} data-cy='vantagen'>
                 <img
                   src={dispositivo}
                   alt="ícone de um dispositivo como notebook"
