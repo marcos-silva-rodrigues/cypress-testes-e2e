@@ -1,6 +1,6 @@
 describe("Formulario cadastro", () => {
     beforeEach(() => {
-        cy.visit("http://localhost:3000/");
+        cy.visit('/');
     });
 
     it("Usuário deve conseguir se cadstrar com sucesso", () => {

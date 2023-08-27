@@ -1,6 +1,6 @@
 describe('template spec', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000/');
+    cy.visit('/');
   });
 
   it('Deve renderizar corretamente o texto da seção de vantagens ', () => {
